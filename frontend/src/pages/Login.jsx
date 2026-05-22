@@ -80,6 +80,19 @@ function Login() {
           Login
         </button>
 
+        <p className="text-center mt-4">
+          New user?{" "}
+
+        <button
+        onClick={() =>
+          window.location.href = "/register"
+        }
+        className="text-blue-600 font-bold"
+      >
+        Register
+      </button>
+      </p>
+
       </div>
 
     </div>
